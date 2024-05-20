@@ -1,0 +1,29 @@
+.logo-purchase{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .purchase{
+        border: 1px;
+        background-color: white;
+        border-radius: 4px;
+        width: 12rem;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .purchase:hover{
+        transition: 175ms;
+        color: white;
+        background: #000;
+        border: 1px white solid;
+    }
+}
+
+.header{
+    margin-top: 50px;
+}

@@ -1,0 +1,46 @@
+.rating-parent{
+    margin-top: 5em;
+}
+
+.trust{
+    color: white;
+    /* border: white 1px solid; */
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size:20px;
+    margin-bottom: 2em;
+}
+
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fire{
+    display: flex;
+    align-items: center;
+}
+
+.q-square{
+    display: flex;
+    align-items: center;
+}
+.wordpress{
+    display: flex;
+    align-items: center;
+}
+
+.review{
+    padding-top: 35px;
+    padding-left: 10px;
+    color: #a2a2a2;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: small;
+    font-weight: 500;
+    span{
+        font-weight: 1000;
+    }
+}

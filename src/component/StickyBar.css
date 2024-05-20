@@ -1,0 +1,41 @@
+.stickylabel{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position: fixed;
+    background-color: #262626;
+    width: 100%;
+}
+
+.sticky-image{
+    height: 20px;
+    padding: 0;
+}
+
+.sticky-logo{
+    display: flex;
+    align-items: center;
+    background:none;
+    border: none;
+}
+.sticky-logo:hover{
+    cursor:pointer;
+}
+
+.buy-now{
+    height: 33px;
+    padding-inline: 19px;
+    color: white;
+    background-color: rgb(130, 180, 64);
+    border:none ;
+    border-radius: 5px;
+}
+
+.buy-now:hover{
+    background-color: rgb(122,169,60);
+    cursor: pointer;
+}
