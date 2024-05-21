@@ -1,0 +1,45 @@
+.browser-parent{
+    margin-top:  120px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px white solid; */
+    color:white;
+    background: rgb(13,6,31);
+    background: linear-gradient(180deg, rgba(13,6,31,1) 0%, rgba(16,9,33,1) 5%, rgba(23,16,40,1) 46%, rgba(36,29,52,1) 100%);
+    border-radius: 20px;
+}
+
+.browser-heading{
+    /* border: 1px white solid; */
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 550;
+}
+
+.browser-description{
+    /* border: 1px white solid; */
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    color: rgb(172, 172, 172);
+    /* width: 90%; */
+}
+
+.browser-container{
+    /* border: 1px white solid; */
+    width: 45%;
+    padding-top: 20px;  
+    
+}
+
+.browser-image{
+    padding-bottom: 40px;
+
+    width: 40%;
+}

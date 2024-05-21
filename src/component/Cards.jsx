@@ -9,7 +9,10 @@ export default function Cards(){
                 
                 <div className='card-heading'>{heading}</div>
                 <div className='card-description'>{description}</div>
+                <div>
                 <img src={image} className="card-image" />
+                </div>
+                
 
             </div>
         );
@@ -26,7 +29,6 @@ export default function Cards(){
 
                 {card("Apply On Section","Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website. ",Section)}
 
-                
                 {card("Apply On Page", "Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.", Page)}
                 
                 

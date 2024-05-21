@@ -1,0 +1,35 @@
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    /* position:absolute; */
+    /* margin-top: 100px;  */
+    background:  linear-gradient(90deg, #F87516 1%,  #F87516 10%, #5100ff 80%, #5100ff 150%);;
+    align-items: center;
+    padding-inline:90px;
+    color: white;
+}
+
+
+.hello{
+    /* border: 1px white solid; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link{
+    color: white;
+    text-decoration: none; 
+}
+
+@media (max-width:700px ){
+    .footer-parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hello{
+        /* border: 1px white solid; */
+        width: 90%;
+    }
+}

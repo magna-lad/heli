@@ -44,3 +44,11 @@
         font-weight: 1000;
     }
 }
+
+
+@media (max-width:481px){
+    .rating{
+        display: flex;
+        justify-content: center;
+    }
+}

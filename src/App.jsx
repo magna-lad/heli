@@ -6,25 +6,35 @@ import Stickybar from './component/StickyBar';
 import Rating from './component/Rating';
 import Wand from './component/Wand';
 import Cards from './component/Cards';
+import Browser from './component/Browser';
+import Features from './component/Features';
+import Footer from './component/Footer';
 
 function App() {
 
   return ( 
-    <div>
+    <div >
+      
       <div className='stickybar'>
         <Stickybar />
       </div>
     
       <div className='god'>
+      
         
-      <div className='craddle'>
-        <Header />
-        <FirstPage />
-        <Rating />
-        <Wand />
-        <Cards />
+        <div className='craddle'>
+          <Header />
+          <FirstPage />
+          <Rating />
+          <Wand />
+          <Cards />
+          <Browser />
+          <Features />
+
+        </div>
       </div>
-      </div>
+      <Footer />
+      
       
     </div>
     

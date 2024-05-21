@@ -38,4 +38,27 @@
 
 .purchase-wand:hover{
     cursor: pointer;
+    
+}
+
+@media (max-width:481px) {
+
+    .wand-parent{
+        display: flex;
+        justify-content: center;
+    }
+
+    .turn{
+        display: flex;
+        text-align: center;
+    }
+
+    .motion{
+        text-align: center;
+    }
+
+    .purchase-wand{
+        width: 90%;
+        font: 5px;
+    }
 }

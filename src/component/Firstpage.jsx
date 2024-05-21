@@ -14,8 +14,7 @@ export default function FirstPage(){
                 </diV>
             
                 <div className='attract-box'>
-                    <div className='attract-box1'>Attract Your Visitors Attention With Colorful</div>
-                    <br />
+                        <p className='attract-box1'>Attract Your Visitors Attention With Colorful</p>
                     <div className='attract-box2' >Motion Art Effect</div>
                     <br />
                     <div className='attract-box3'>Unleash the power of creativity with Motion Art for Elementor - your ultimate solution for seamlessly integrating captivating animations into your website. </div>
